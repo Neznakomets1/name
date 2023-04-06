@@ -89,3 +89,134 @@ header{
     font-weight: bold;
     border-radius: 6px;
 }
+
+.header-info-block{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-info{
+    max-width: 361px;
+}
+
+.card-info-img{
+    display: flex;
+}
+
+.info-title{
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    margin-top: 15px;
+    margin-bottom: 4px;
+}
+
+.info-subtitle{
+    font-size: 13px;
+    color: #8c8c8c;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    display: block;
+}
+
+.about-subtitle-text{
+    display: inline-block;
+    color: #fff;
+    font-weight: bold;
+    font-size: 13px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    border-left: 1px solid #fff;
+    padding: 8px 0px 8px 20px;
+    margin-bottom: 13px;
+}
+
+.about-desc{
+    font-size: 14px;
+    color: #d1d1d1;
+    line-height: 1.8;
+    max-width: 240px;    
+}
+
+.audio-holder{
+    width: 540px;
+}
+
+.control{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.control i {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FEBE02;
+    color: #fff;
+}
+
+.audio-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 34px;
+    flex: 1;width: 100%;
+}
+
+.audio-block{
+    background-color: #242424;
+    display: flex;
+    margin-top: 61px;
+}
+
+@media (max-width: 1120px)
+{
+    .container{padding: 0 20px;}
+}
+
+@media (max-width: 992px)
+{
+    .header-info-block{flex-direction: column;}
+    .card-about{
+        margin-top: 60px;
+        align-self: flex-end;
+    }
+    .audio-container{order: -1;}
+}
+
+@media (max-width: 756px)
+{
+
+}
+
+@media (max-width: 578px)
+{
+    .navigation-holder{ display: none;}
+    .join{ display: none; }
+    .header-title-text{font-size: 60px;}
+    .mob-btn{
+        display: inline-block;
+        text-decoration: none;
+        color: #fff;
+        font-size: 60px;
+    }
+    .audio-holder, .card-about {width: 100%;}
+    .audio-block img{ display: none; }
+    .control i {height: 48px;}
+}
+
+.mob-btn{
+    display: none;
+}
+
+<<<<<<< HEAD
+=======
+#wave{
+    width: 100%;
+}
+>>>>>>> 87c97dae75c81dbdced5a237d6a3c6a16a372ea9
